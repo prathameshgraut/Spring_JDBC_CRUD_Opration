@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Spring_CRUD</groupId>
+  <artifactId>Spring_JDBC_CRUD_Practise3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   
+   <dependencies>
+    <!--1st spring-AOP -->
+   <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>7.0.0-M5</version>
+   </dependency>
+  
+    <!--2nd spring-context -->
+   <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>7.0.0-M5</version>
+   </dependency>
+  
+    <!--3rd spring-core -->
+   <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>7.0.0-M5</version>
+   </dependency>
+  
+    <!--4th spring-beans -->
+   <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+    <version>7.0.0-M5</version>
+   </dependency>
+   
+   <!--5th spring-jdbc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>6.2.0</version>
+</dependency>
+   
+     <!--6th spring-mysql -->
+   <dependency>
+   <groupId>mysql</groupId>
+   <artifactId>mysql-connector-java</artifactId>
+   <version>8.0.33</version>
+   </dependency>
+  
+ 
+  </dependencies>
+</project>
